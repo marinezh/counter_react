@@ -1,0 +1,15 @@
+.button {
+font-family: inherit;
+border: none;
+background-color: aquamarine;
+color:grey;
+border-radius: 5px;
+margin-left: 10px;
+}
+
+.button:hover,
+.button:active {
+    background: pink;
+    border-color: darkorchid;
+}
+

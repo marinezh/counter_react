@@ -1,0 +1,61 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+main {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: grey;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+
+.Buttons {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+button:hover {
+    background-color: rgb(246, 246, 122);
+}
+
+button {
+    width:10rem;
+    font-family: inherit;
+    font-size: inherit;
+    padding: 1rem 1.5rem;
+    border-radius: 5px;
+    border: none; 
+}
+
+
+h1 {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: rgb(246, 246, 122);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Counter.odd {
+    background-color: rgb(122, 246, 143);
+}
+
+.Counter.even {
+    background-color:  rgb(14, 204, 225);
+}
+
+/* h1.Counter {
+    background-color: grey;
+} */
